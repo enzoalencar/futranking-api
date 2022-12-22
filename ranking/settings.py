@@ -1,5 +1,3 @@
-# from corsheaders.defaults import default_headers
-# from corsheaders.defaults import default_methods
 from pathlib import Path
 import environ
 
@@ -16,9 +14,10 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-# CORS_ALLOW_ALL_ORIGINS = True
-# CORS_ALLOW_METHODS = list(default_methods)
-# CORS_ALLOW_HEADERS = list(default_headers) + ['Access-control-allow-origin']
+
+# TO LEARN MORE ABOUT CORS: https://github.com/adamchainz/django-cors-headers
+CORS_ALLOW_ALL_ORIGINS = True
+
 
 # Application definition
 
