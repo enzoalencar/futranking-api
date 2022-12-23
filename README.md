@@ -1,4 +1,4 @@
-# FutRanking - A ranking of top 10 best brazillians of all football (soccer) history
+# FutRanking - A ranking of top 10 best brazilians of all football (soccer) history
 
 > :warning: **Doesn't work with CORS enabled**:  
 Press Windows + R and type the following command to open Chrome with CORS disabled:  
@@ -14,7 +14,7 @@ In case you want to see the stored FutRanking data:
 
 ## Instalation
 
-**Warning**: Step by step done by PowerShell terminal  
+**Warning**: Step by step done in PowerShell terminal  
 
 Create a virtual environment
 ```
